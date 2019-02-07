@@ -7,6 +7,11 @@ require 'yaml/store'
 require 'ostruct'
 require 'date'
 
+ActiveRecord::Base.establish_connection(
+  :adapter => "sqlite3",
+  :database => "db/halloween-development.sqlite"
+)
+
 DBNAME = "halloween"
 
 Dir[File.join(File.dirname(__FILE__), "../app/models", "*.rb")].each {|f| require f}
