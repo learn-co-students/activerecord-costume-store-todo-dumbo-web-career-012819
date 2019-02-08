@@ -21,7 +21,7 @@ The `costumes` table will have four columns:
   2. price
   3. size
   4. image url
-  
+
 _as well as_ the two "timestamp" columns:  `created_at` and `updated_at`. This
 will provide a grand total of _six_ columns.
 
@@ -230,8 +230,8 @@ You will only be altering code in six files, the three files in the `models` fol
 
 **Your models should be no longer than two lines of code.**
 
-* The first step is to run `bundle install`.
-* Create the Costume class in `app/models/`.
+<!-- * The first step is to run `bundle install`. -->
+<!-- * Create the Costume class in `app/models/`. -->
 * Fill out the Active Record migration for costumes such that it passes the specs.
 * Create the CostumeStore class in `app/models/`.
 * Fill out the Active Record migration for `costume_stores` such that it passes the specs.
